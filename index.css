@@ -32,6 +32,7 @@ h2 {
 h4 {
     font-weight: 400;
     font-family: 'Raleway';
+    font-size: 15px !important;
 }
 
 h5 {
@@ -41,9 +42,13 @@ h5 {
 
 /* header */
 
+.logo img{
+    height: 100px;
+}
+
 header {
     width: 1440px;
-    height: 135px;
+    height: 100px;
     background-color: #c9ada7;
     display: flex;
     justify-content: space-between;
