@@ -199,13 +199,13 @@ header {
     padding: 5px;
     height: 35px;
     /* background-color: rgba(34, 34, 59, 0.533); */
-    background-color: #d84a26b4;
+    background-color: #d82c26;
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 13px;
-    border-radius: 0px 0px 10px 0px;
+    border-radius: 0px 10px 10px 0px;
     position: absolute;
-    top: 0;
+    top: 15;
     left: 0;
     z-index: 1;
     display: flex;
@@ -213,9 +213,6 @@ header {
     align-items: center;
     color: white;
     letter-spacing: 5px;
-    border: rgba(255, 255, 255, 0.732) 1px solid;
-    border-top: none;
-    border-left: none;
 }
 
 /* main .fav-heart{
@@ -242,7 +239,7 @@ header {
 }
 
 .checkbox:checked+label svg #heart{
-    fill: #E2264D;
+    fill: #d82c26;
 }
 
 .contact-icon {
